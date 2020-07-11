@@ -1,6 +1,6 @@
 package main
 
-import "github.com/arieefrachman/rest-api-bolierplate/cmd"
+import "github.com/Bareksa/rest-api-boilerplate/cmd"
 
 func main() {
 	cmd.Execute()
