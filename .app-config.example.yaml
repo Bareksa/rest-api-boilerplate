@@ -1,0 +1,4 @@
+consul:
+  host: "localhost:8500"
+sentry:
+  dsn: ""
