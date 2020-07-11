@@ -6,7 +6,7 @@ Simple golang REST API boilerplate with service discovery and remote config supp
 ## Prerequisite
 Things that you need to do before running this boilerplate:
 1. Make sure, your consul service already running.
-2. Provide your configuration in consul KV. For more details see this [post]((https://nodejs.org/en/)). 
+2. Provide your configuration in consul KV. For more details see this [post](https://nodejs.org/en/). 
 3. If you're not using consul, please provide local configuration file by rename `.app-config.example.yaml` to `.app-config.yaml`.
 
 ## How to run
