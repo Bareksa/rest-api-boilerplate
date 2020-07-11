@@ -1,4 +1,6 @@
 # Golang  REST API Boilerplate
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+
 Simple golang REST API boilerplate with service discovery and remote config supported by [Consul](https://www.consul.io/).
 
 ## Prerequisite
@@ -13,7 +15,7 @@ Run command below:
 $ go build -o boilerplate .
 $ ./boilerplate serveHttp --consul localhost:8500 
 ```
-In this case, consul service run at port `8500` by deault.
+In this case, consul service run at port `8500` by default.
 
 ## License
 Copyright © 2020, [Bareksa Portal Investasi](https://bareksa.com).
