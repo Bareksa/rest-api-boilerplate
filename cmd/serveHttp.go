@@ -46,7 +46,7 @@ func serve(ctx context.Context) (err error){
 	serviceID := uuid.New().String()
 	consul.Register(serviceID, "boilerplate", hostname(), port())
 	server := &http.Server{
-		Addr:    hostname()+port(),
+		Addr:    port(),
 		Handler: router,
 	}
 

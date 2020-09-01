@@ -17,6 +17,11 @@ $ ./boilerplate serveHttp --consul localhost:8500
 ```
 In this case, consul service run at port `8500` by default.
 
+Try hit this endpoint
+```shell script
+curl --location --request GET 'http://localhost:8080/v1/ping'
+```
+
 ## License
 Copyright © 2020, [Bareksa Portal Investasi](https://bareksa.com).
 Released under the [MIT License](LICENSE).
